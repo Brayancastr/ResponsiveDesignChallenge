@@ -9,14 +9,22 @@
 </head>
 
 
-<body><EM>
+<body>
+	<style>
+        body {
+           background-image: url("hero.jpg");
+        }
+     </style>
+	
+	
+	<EM>
 
 		<H2>
-			<a href="http://stu.cbu.edu/~nmutasa/Project2.html">HOME</a>
+			<a href="Project2.html">HOME</a>
 			<a href="#res">RESERVATIONS</a>
 			<a href="#rev">REVIEWS</a>
-			<a href="http://stu.cbu.edu/~nmutasa/About.html">ABOUT</a>
-			<a href="http://stu.cbu.edu/~nmutasa/Contact.html">CONTACT</a>
+			<a href="About.html">ABOUT</a>
+			<a href="Contact.html">CONTACT</a>
 		</H2>
 
 		<center><img src="logo.png" vspace=5></center>
@@ -36,7 +44,12 @@
 				First and Last Name: <input type="text" size=40 name="Name">
 				<BR><BR>
 				Date(ex. 05/25/20): <input type="text" size=20 name="Date">
-				Time(ex. 09:30PM): <input type="text" size=20 name="Time">
+			
+
+
+				
+				
+				<span id="content1">Time(ex. 09:30PM):</span> <input type="text" size=20 name="Time">
 				<BR><BR>
 				<input type="submit" name="submit" value="submit">
 				<input type="reset" name="reset" value="reset">
@@ -61,7 +74,7 @@
 				<Form method="post" action="http://facstaff.cbu.edu/dbrandon/echo.php">
 					<BR><BR>
 					First Name: <input type="text" size=20 name="Name">
-					Date of Visit: <input type="text" size=20 name="Visit">
+					<span id="content2">Date of Visit</span>  <input type="text" size=20 name="Visit">
 					<BR><BR>
 					Comments: <input type="text" size=65 name="Review">
 					<BR><BR>
@@ -71,7 +84,7 @@
 				</Form>
 
 				<H2>
-					<a href="http://stu.cbu.edu/~nmutasa/Project2.html">HOME</a>
+					<a href="Project2.html">HOME</a>
 				</H2>
 				<H4>A Sustainable, Fine Dining Experience.</H4>
 

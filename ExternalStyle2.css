@@ -7,10 +7,13 @@ Body {
 	background-color: white;
 	font-family: cambria;
 	color: gray	
+
 	}
 
-H1 {font-size: 50pt; text-align: right}
-H2 {font-size: 25pt; text-align: right}
+
+	
+H1 {font-size: 50pt; text-align: center;}
+H2 {font-size: 25pt; text-align: center}
 H3 {font-size: 10pt; text-align: center}
 H4 {text-align: center}
 H5 {font-size: 15pt}
@@ -30,5 +33,42 @@ Form {
 	font-family: monospace; 
 	text-align: center; 
 	color: white; 
-	background-color: green}
+	background-color: green
+}
+
+
+
+@media screen and (max-width: 700px ) {
+
+	
+	H1 {font-size: 50pt; text-align: center;}
+	H2 {font-size: 25pt; text-align: center}
+	H3 {font-size: 10pt; text-align: center}
+	H4 {text-align: center}
+	H5 {font-size: 15pt}
+
+
+
+	Form {
+	
+		text-align: left; 
+		color: white; 
+	
+	}
+	input[type="text" i] {
+		padding: 10px 20px;
+	}
+
+	#content1::before{
+		content: "\a";
+		white-space: pre;
+	}
+
+	#content2::before{
+		content: "\a";
+		white-space: pre;
+	}
+
+}
+
 
